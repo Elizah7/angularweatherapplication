@@ -1,0 +1,39 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: #021527;
+   color: white;
+   height: 100vh;
+}
+/* Colors */
+:root {
+    --primary-color: #007bff;         /* Primary Blue */
+    --secondary-color: #0056b3;       /* Darker Blue */
+    --accent-color: #00bfff;          /* Light Blue */
+    --light-color: #f0f8ff;           /* Light Blue Background */
+    --dark-color: #333;               /* Dark Text Color */
+    --button-hover: #0056b3;          /* Button Hover Color */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: var(--button-hover);
+  }
+  
+
+
+  
+
+
+  
