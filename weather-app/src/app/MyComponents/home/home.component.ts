@@ -6,25 +6,25 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  sliderImages: string[] = [
-    'https://assets-in.bmscdn.com/promotions/cms/creatives/1689679473819_horrordesktop.jpg',
-    'https://assets-in.bmscdn.com/promotions/cms/creatives/1688970894022_bigweb.jpg',
-    'https://assets-in.bmscdn.com/promotions/cms/creatives/1688363625984_delhitheatredesktop.jpg',
-    'https://assets-in.bmscdn.com/promotions/cms/creatives/1689060789408_fatimaayeshadesktop.jpg',
-  ];
+  // weatherData = SAMPLE_WEATHER_DATA;
+  // currentPage = 1;
+  // itemsPerPage = 5;
 
+  // // Pagination logic
+  // get paginatedWeatherData() {
+  //   const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+  //   const endIndex = startIndex + this.itemsPerPage;
+  //   return this.weatherData.slice(startIndex, endIndex);
+  // }
 
-
+  // addNewEntry() {
+  //   // Implement logic to add a new entry to SAMPLE_WEATHER_DATA
+  //   // For this example, you can simply push a new object to the array
+  //   const newEntry = { id: this.weatherData.length + 1, city: 'New City', temperature: 0, condition: 'Unknown' };
+  //   this.weatherData.push(newEntry);
+  // }
 
 }
 
 
-let init = {
-  product :[]
-}
 
-// const reducer = (state,action)=>{
-//      switch case (action.payload) :{
-          
-//      }
-// }
