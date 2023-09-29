@@ -1,1 +1,32 @@
-<p>detailspage works!</p>
+<!-- page1.component.html -->
+<main class="main">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>City Name</th>
+        <th>Temperature</th>
+        <th>Min Temp</th>
+        <th>Max Temp</th>     
+        <th>Winds</th>
+        <th>Condition</th>
+        <th>Humidity</th> 
+        <th>Clouds</th>
+        <th>Precautions</th>  
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let entry of weatherdata">
+        <td>{{ entry.city }}</td>
+        <td>{{ entry.temperature}}°C</td>
+        <td>{{ entry.minTemperature }}°C</td>
+        <td>{{ entry.maxTemperature}}°C</td>
+        <td>{{ entry.windSpeed}}°C</td>
+        <td>{{ entry.weatherCondition }}°C</td>
+        <td>{{ entry.humidity}}°C</td>
+        <td>{{ entry.clouds }}°C</td>
+        <td>{{ entry.precautions}}°C</td>
+      </tr>
+    </tbody>
+  </table>
+  </main>
+  

@@ -1,13 +1,13 @@
 export interface Movie {
     _id: string; 
-    title: string;
-    description: string;
-    timings: string[];
-    ratings: number[]; 
-    cast: string[]; // An array of cast members
-    director: string;
-    language: string[]; // An array of languages the movie is available in
-    release_date: string; // Assuming release date is stored as a string
-    image: string; // URL or path to the movie's image
+    city: string;
+    clouds : string;
+    humidity: string;
+    maxTemperature: number; 
+    minTemperature: number; // An array of cast members
+    precautions: string;
+    temperature: number; // An array of languages the movie is available in
+    weatherCondition: string; // Assuming release date is stored as a string
+    windSpeed: number; // URL or path to the movie's image
   }
   

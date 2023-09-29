@@ -5,13 +5,13 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private baseUrl = 'http://localhost:8000/weather'; 
+  private baseUrl = 'https://frail-gold-swallow.cyclic.cloud/weather/'; 
 
   
   constructor(private http: HttpClient ) { }
 
   getdata(){
-    const url = `${this.baseUrl}}`;
+    const url = `${this.baseUrl}`;
     return this.http.get(url);
   }
   getsingledata(city:string){

@@ -1,21 +1,22 @@
-
-<h1>Page 1 - Weather Data</h1>
-<table>
+<!-- page1.component.html -->
+<main class="main">
+<table class="table">
   <thead>
     <tr>
-      <th>ID</th>
-      <th>City</th>
+      <th>City Name</th>
       <th>Temperature</th>
-      <th>Condition</th>
+      <th>Min Temp</th>
+      <th>Max Temp</th>     
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>2</td>
-      <td>Goa</td>
-      <td>35°C</td>
-      <td>good</td>
+    <tr *ngFor="let entry of weatherdata">
+      <td>{{ entry.city }}</td>
+      <td>{{ entry.temperature}}°C</td>
+      <td>{{ entry.minTemperature }}°C</td>
+      <td>{{ entry.maxTemperature}}°C</td>
     </tr>
   </tbody>
 </table>
-<button>Add New Entry</button>
+
+</main>

@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './MyComponents/navbar/navbar.component';
 
 import {HomeComponent} from './MyComponents/home/home.component'
-import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { HttpClientModule } from '@angular/common/http';
+
 import { MatDialogModule } from '@angular/material/dialog'; 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DetailspageComponent } from './MyComponents/detailspage/detailspage.component';
@@ -23,7 +23,6 @@ import { DetailspageComponent } from './MyComponents/detailspage/detailspage.com
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    CarouselModule.forRoot(),
     HttpClientModule,
     MatDialogModule,
     NgbModule 
